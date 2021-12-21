@@ -1,0 +1,29 @@
+body{
+    background-color:rgb(5, 252, 240);
+}
+
+/* div {
+    border:1px solid;
+} */
+
+header, #headerTitle {
+    background-image: url(https://demo.qodeinteractive.com/central/wp-content/uploads/2013/05/header.jpg);
+    margin:0;
+    padding:0;
+}
+
+aside {
+    display: inline-flexbox;
+    float: left;
+    padding: 2rem;
+}
+
+#mainData {
+    display:flex;
+    flex-direction: column;
+    border:1px solid;
+    padding: 2rem;
+    }
+
+
+
