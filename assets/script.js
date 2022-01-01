@@ -47,7 +47,7 @@ searchButtonEl.addEventListener('click', function getData() {
 
     input = document.querySelector("#cityQuery")
     userInput = input.value;
-    let queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + userInput + "&appid=fe79f292b12f6fa0da9ff561cba92215&units=imperial";
+    let queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + userInput + "&appid=fe79f292b12f6fa0da9ff561cba92215&units=imperial";
 
     fetch(queryURL)
         .then(function (response) {
