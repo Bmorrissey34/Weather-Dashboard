@@ -103,7 +103,7 @@ searchButtonEl.addEventListener('click', function getData() {
 
                     todayIcon = data.current.weather[0].icon;
                     let iconAppend = document.createElement("img");
-                    let iconUrl = 'http://openweathermap.org/img/wn/' + todayIcon + '@2x.png'
+                    let iconUrl = 'https://openweathermap.org/img/wn/' + todayIcon + '@2x.png'
                     iconAppend.setAttribute('src', iconUrl);
                     iconAppend.setAttribute('style', 'width:100px; height:100px')
                     currentCityEl.append(iconAppend);
@@ -132,7 +132,7 @@ searchButtonEl.addEventListener('click', function getData() {
                     let oneTemp = document.createElement("p")
                     oneTemp.innerText = tempFiveDay[0] + " *F "
                     let iconOne = document.createElement ('img')
-                    iconOne.src = 'http://openweathermap.org/img/wn/' + fiveDayIcon[0] + '@2x.png';
+                    iconOne.src = 'https://openweathermap.org/img/wn/' + fiveDayIcon[0] + '@2x.png';
                     iconOne.setAttribute('style', 'width: 30%; float: right;')
                     iconOne.innerHTML = fiveDayIcon[0]
                     tempOne.append(oneTemp, iconOne)
@@ -140,7 +140,7 @@ searchButtonEl.addEventListener('click', function getData() {
                     let twoTemp = document.createElement('p')
                     twoTemp.innerText = tempFiveDay[1] + " *F "
                     let iconTwo = document.createElement ('img')
-                    iconTwo.src = 'http://openweathermap.org/img/wn/' + fiveDayIcon[1] + '@2x.png';
+                    iconTwo.src = 'https://openweathermap.org/img/wn/' + fiveDayIcon[1] + '@2x.png';
                     iconTwo.setAttribute('style', 'width: 30%; float: right;')
                     iconTwo.innerHTML = fiveDayIcon[1]
                     tempTwo.append(twoTemp, iconTwo)
@@ -148,7 +148,7 @@ searchButtonEl.addEventListener('click', function getData() {
                     let threeTemp = document.createElement('p')
                     threeTemp.innerText = tempFiveDay[2] + " *F "
                     let iconThree = document.createElement ('img')
-                    iconThree.src = 'http://openweathermap.org/img/wn/' + fiveDayIcon[2] + '@2x.png';
+                    iconThree.src = 'https://openweathermap.org/img/wn/' + fiveDayIcon[2] + '@2x.png';
                     iconThree.setAttribute('style', 'width: 30%; float: right;')
                     iconThree.innerHTML = fiveDayIcon[2]
                     tempThree.append(threeTemp, iconThree)
@@ -156,7 +156,7 @@ searchButtonEl.addEventListener('click', function getData() {
                     let fourTemp = document.createElement('p')
                     fourTemp.innerText = tempFiveDay[3] + " *F "
                     let iconFour = document.createElement ('img')
-                    iconFour.src = 'http://openweathermap.org/img/wn/' + fiveDayIcon[3] + '@2x.png';
+                    iconFour.src = 'https://openweathermap.org/img/wn/' + fiveDayIcon[3] + '@2x.png';
                     iconFour.setAttribute('style', 'width: 30%; float: right;')
                     iconFour.innerHTML = fiveDayIcon[3]
                     tempFour.append(fourTemp, iconFour)
@@ -164,7 +164,7 @@ searchButtonEl.addEventListener('click', function getData() {
                     let fiveTemp = document.createElement('p')
                     fiveTemp.innerText = tempFiveDay[4] + " *F "
                     let iconFive = document.createElement ('img')
-                    iconFive.src = 'http://openweathermap.org/img/wn/' + fiveDayIcon[4] + '@2x.png';
+                    iconFive.src = 'https://openweathermap.org/img/wn/' + fiveDayIcon[4] + '@2x.png';
                     iconFive.setAttribute('style', 'width: 30%; float: right;')
                     iconFive.innerHTML = fiveDayIcon[4]
                     tempFive.append(fiveTemp, iconFive)
