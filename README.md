@@ -1,11 +1,11 @@
 # Weather-Dashboard
 
 ## GitHub Repo
-URL : https://github.com/Bmorrissey34/Weather-Dashboard
-
 I have created a weather ddashboard where you can comee and search for a city and it will show you current weather, as well as a 5 day forcast.
 
 For this project I used the Open Weather API to pull current and future weather data.
+
+URL : https://github.com/Bmorrissey34/Weather-Dashboard
 
 # Functionality
 
