@@ -12,5 +12,8 @@ You will be able to type any city name in the US into the search bar and hit the
 The page will be filled with weather information from the city searched by the user
 
 ## Live Page
+![weather dash](https://user-images.githubusercontent.com/88950762/147856481-3f6b0458-94c5-4805-9b05-f96e057675fb.png)
+
+Live Link: 
 
 
