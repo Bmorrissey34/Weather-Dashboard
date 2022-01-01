@@ -25,5 +25,27 @@ aside {
     padding: 2rem;
     }
 
+#fiveDay {
+    display:flex;
+    flex-direction: row;
+    padding-top: 120px;
+    justify-content:space-evenly;
+    width: 80%;
+    float:right;
+}
+
+.fiveDayCard{
+    height: 200px;
+    width: 200px;
+    background-color:white;
+    border:2.5px solid blue;
+}
+
+.temp > p, .humidity > p, .wind > p{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 70%;
+    float:left;
+}
 
 

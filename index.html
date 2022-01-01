@@ -28,7 +28,7 @@
 
             <input type="search" id="cityQuery" placeholder="Atlanta" autocomplete='on'>
             <button type="button" class="btn btn-primary searchButton">Search</button>
-            
+
             <div class='savedButtons'></div>
         </aside>
         <section id='mainData'>
@@ -36,10 +36,38 @@
                 <div id='currentCity'></div>
                 <div id='weatherData'></div>
             </section>
-            <section id='fiveDayTitle'>5 Day Forecast:</section>
-            <section id='fiveDay'></section>
         </section>
 
+        
+        <div id='fiveDay'>
+            <section id='fiveDayTitle'>5 Day Forecast:</section>
+            <div class="fiveDayCard" id= "card1">
+                <div class="temp" id="temp1"></div>
+                <div class="humidity" id="humidity1"></div>
+                <div class="wind" id="wind1"></div>
+            </div>
+            <div class="fiveDayCard" id = "card2">
+                <div class="temp" id="temp2"></div>
+                <div class="humidity" id="humidity2"></div>
+                <div class="wind" id="wind2"></div>
+            </div>
+            <div class="fiveDayCard" id = "card3">
+                <div class="temp" id="temp3"></div>
+                <div class="humidity" id="humidity3"></div>
+                <div class="wind" id="wind3"></div>
+            </div>
+            <div class="fiveDayCard" id = "card4">
+                <div class="temp" id="temp4"></div>
+                <div class="humidity" id="humidity4"></div>
+                <div class="wind" id="wind4"></div>
+            </div>
+            <div class="fiveDayCard" id = "card5">
+                <div class="temp" id="temp5"></div>
+                <div class="humidity" id="humidity5"></div>
+                <div class="wind" id="wind5"></div>
+            </div>
+
+        </div>
     </main>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
     <script src="assets/script.js"></script>
